@@ -35,9 +35,12 @@ go version
 terraform version
 ```
 
-#### 2. Build and Install the Provider
+#### 2. (Optional) Build and Install the Provider Locally
 
-Clone this repository and build the provider:
+> 💡 **Note:** You don’t need to build the provider manually unless you want to contribute to its development or test local changes.  
+> Regular users can install the provider automatically from the [Terraform Registry](https://registry.terraform.io/providers/tsuru/tsuru/latest).
+
+If you want to build the provider from source:
 
 ```bash
 # Clone the repository
